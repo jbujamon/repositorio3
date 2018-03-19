@@ -13,17 +13,17 @@ public class operarArrays {
 	
 	private int numAzar;
 	private int suma = 0;
+	private int cambio2;
 	
-	
-	/*Método que median un Math.random genera y devuelve un número al azar entre dos limites introducidos manualmente*/
+	/*Mï¿½todo que median un Math.random genera y devuelve un nï¿½mero al azar entre dos limites introducidos manualmente*/
 	public static int obtenerNumeroAzar (int min, int max) {
 		 return (int) Math.round(Math.random() * (max - min)) + min;
 	}
 	
 	
-	/*Método en el cual utilizamos un bucle for donde durante la longuitud del array especificada anteriormente,
-	 generamos un numero al azar entre 1 y 20 , donde cada uno de ellos se va insertado en una posición del array
-	 uno a continuación del otro*/
+	/*Mï¿½todo en el cual utilizamos un bucle for donde durante la longuitud del array especificada anteriormente,
+	 generamos un numero al azar entre 1 y 20 , donde cada uno de ellos se va insertado en una posiciï¿½n del array
+	 uno a continuaciï¿½n del otro*/
 	public void rellanaArray (){
 		for(int i = 0; i < array.length;i++) {
 			numAzar = obtenerNumeroAzar(1,20);
@@ -35,14 +35,14 @@ public class operarArrays {
 	}
 	
 	
-	/*Método que devuelve un String sacando por pantalla los numeros introducidos en el array*/
+	/*Mï¿½todo que devuelve un String sacando por pantalla los numeros introducidos en el array*/
 	public String imprimirArray() {
 		return "Los numero introducidos en el array son :" + array;
 	}
 	
 	
-	/*Método que devuelve un Strind sacando por pantalla la suma de los elementos del array
-	 después de hacerle un recorrido al array ya relleno para sacar la suma de sus elementos 
+	/*Mï¿½todo que devuelve un Strind sacando por pantalla la suma de los elementos del array
+	 despuï¿½s de hacerle un recorrido al array ya relleno para sacar la suma de sus elementos 
 	 y los elementos menores de 10*/
 	public String sumarArray() {
 		for(int i =0; i < array.length; i++) {
@@ -55,7 +55,7 @@ public class operarArrays {
 		return "La suma de los elementos es: " + suma;
 	}
 	
-	/*Método que muestra los elementos impares dentro del array*/
+	/*Mï¿½todo que muestra los elementos impares dentro del array*/
 	public String elementosImpares() {
 		for(int i=0; i < array.length;i++) {
 			if(array[i] % 2 != 0){
@@ -65,7 +65,7 @@ public class operarArrays {
 		return"No hay elementos impares";
 	}
 	
-	/*Método que muestra los elementos pares dentro del array*/
+	/*Mï¿½todo que muestra los elementos pares dentro del array*/
 	public String mostrarPares() {
 		for(int i = 0; i < array.length;i++) {
 			if(array[i] % 2 == 0 ) {
