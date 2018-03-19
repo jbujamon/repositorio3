@@ -13,7 +13,11 @@ public class operarArrays {
 	
 	private int numAzar;
 	private int suma = 0;
+<<<<<<< HEAD
 	private int cambio1;
+=======
+	private int cambio2;
+>>>>>>> rama2
 	
 	/*M�todo que median un Math.random genera y devuelve un n�mero al azar entre dos limites introducidos manualmente*/
 	public static int obtenerNumeroAzar (int min, int max) {
