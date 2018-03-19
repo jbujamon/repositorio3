@@ -74,4 +74,11 @@ public class operarArrays {
 		} 
 		return"No hay numeros pares";
 	}
+	
+	/*
+	 * Método que saca por pantalla "Todo va bien"
+	 */
+	public void nuevoMetodo1(){
+		System.out.println("Todo va bien");
+	}
 }
