@@ -78,7 +78,7 @@ public class operarArrays {
 	/*
 	 * Método que saca por pantalla "Todo va bien"
 	 */
-	public void nuevoMetodo1(){
-		System.out.println("Todo va bien");
+	public void nuevoMetodo2(){
+		System.out.println("Todo va bien 2");
 	}
 }
